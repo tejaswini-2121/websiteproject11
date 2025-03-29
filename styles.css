@@ -1,0 +1,52 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 1x;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align:center;
+    background-size: 100px;
+
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007BFF;
+    padding: 10px ;
+    word-spacing: 100px;
+    font-size: xx-large;
+}
+
+nav a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:black
+}
+
+/* Heading Style */
+h1 {
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
